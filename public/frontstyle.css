@@ -1,0 +1,75 @@
+ html, body{
+    width: 100%;
+    height: 96%;
+    margin: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+.main .heading{
+    font-size: 40px;
+    color: blueviolet;
+    font-family: cursive;
+    text-align: center;
+}
+.content{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px dotted black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content .image{
+    width:100px;
+    height: 100px;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+}
+.content .buttons{
+    width: 80%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content .button{
+  background-color:coral;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
