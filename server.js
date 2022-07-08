@@ -29,7 +29,7 @@ io.on("connection", function(socket){
     socket.on("file-raw",function(data){
         socket.in(data.uid).emit("fs-share",data.buffer);
     });
-});
+}); 
 
 server.listen(port,()=>{
     console.log("port 5000 running");
